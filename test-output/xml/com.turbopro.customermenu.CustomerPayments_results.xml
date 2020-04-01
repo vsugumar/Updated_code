@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="runCustomerPayments"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="389.261">
+  <properties />
+  
+  
+            <testcase name="CP_MakeCustomerPayment" time="74.264" classname="com.turbopro.customermenu.CustomerPayments" />
+                <testcase name="CP_dropship" time="121.675" classname="com.turbopro.customermenu.CustomerPayments" />
+                <testcase name="CP_createJob" time="47.714" classname="com.turbopro.customermenu.CustomerPayments" />
+                <testcase name="CP_CIforDropship" time="125.653" classname="com.turbopro.customermenu.CustomerPayments" />
+                <testcase name="CP_login" time="19.955" classname="com.turbopro.customermenu.CustomerPayments" />
+      
+</testsuite>

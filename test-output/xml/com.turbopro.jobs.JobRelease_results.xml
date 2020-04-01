@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="runJobReleases"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="74.041">
+  <properties />
+  
+  
+            <testcase name="deleteChangeOrder" time="3.599" classname="com.turbopro.jobs.JobRelease" />
+                <testcase name="updateTaxTerritory" time="6.412" classname="com.turbopro.jobs.JobRelease" />
+                <testcase name="editChangeOrder" time="5.436" classname="com.turbopro.jobs.JobRelease" />
+                <testcase name="updateReleaseNotes" time="5.163" classname="com.turbopro.jobs.JobRelease" />
+                <testcase name="navigateReleaseInNewJob" time="42.926" classname="com.turbopro.jobs.JobRelease" />
+                <testcase name="addChangeOrder" time="10.505" classname="com.turbopro.jobs.JobRelease" />
+      
+</testsuite>

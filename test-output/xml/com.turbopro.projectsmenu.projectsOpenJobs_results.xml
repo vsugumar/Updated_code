@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="runProjectsOpenJobs"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="198.245">
+  <properties />
+  
+  
+            <testcase name="viewOpenJobsByDateRange" time="4.918" classname="com.turbopro.projectsmenu.ProjectsOpenJobs" />
+                <testcase name="openJobsInProjects" time="0.295" classname="com.turbopro.projectsmenu.ProjectsOpenJobs" />
+                <testcase name="projects" time="37.207" classname="com.turbopro.projectsmenu.ProjectsOpenJobs" />
+                <testcase name="viewOpenJobsForSpecCustomer" time="108.141" classname="com.turbopro.projectsmenu.ProjectsOpenJobs" />
+                <testcase name="navigatePagesInOpenJobs" time="4.551" classname="com.turbopro.projectsmenu.ProjectsOpenJobs" />
+                <testcase name="sortingInOpenJobs" time="43.133" classname="com.turbopro.projectsmenu.ProjectsOpenJobs" />
+      
+</testsuite>

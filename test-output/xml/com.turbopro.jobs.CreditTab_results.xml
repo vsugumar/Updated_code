@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="runCreditsTab"
+           tests="11"
+           failures="6"
+           errors="0"
+           skipped="0"
+           time="718.695">
+  <properties />
+            <testcase name="updateClaimFiled" time="8.730" classname="com.turbopro.jobs.CreditTab">
+                <failure type="java.lang.NullPointerException"
+                  message="(null)"
+              >
+<![CDATA[java.lang.NullPointerException
+  org.openqa.selenium.support.ui.Select.<init>(Select.java:44)
+  com.turbopro.jobs.CreditTab.updateClaimFiled(CreditTab.java:262)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:567)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+  org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+  org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+  org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+  org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+  org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+  org.testng.TestRunner.privateRun(TestRunner.java:770)
+  org.testng.TestRunner.run(TestRunner.java:591)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+  org.testng.SuiteRunner.run(SuiteRunner.java:304)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+  org.testng.TestNG.runSuites(TestNG.java:1032)
+  org.testng.TestNG.run(TestNG.java:1000)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="updateOwner" time="32.040" classname="com.turbopro.jobs.CreditTab">
+                <failure type="org.openqa.selenium.NoSuchElementException"
+                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ownerNameID&quot;}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:42:28.403Z&apos;
+System info: host: &apos;sysvinemp029.local&apos;, ip: &apos;fe80:0:0:0:4f3:1e4a:73b:9eec%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;13.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: /var/folders/5g/ytklqqld38q...}, goog:chromeOptions: {debuggerAddress: localhost:49745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(manual), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eb8c08839c7988d9f93454e53523cff3
+*** Element info: {Using=id, value=ownerNameID}"
+              >
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#ownerNameID"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:28.403Z'
+System info: host: 'sysvinemp029.local', ip: 'fe80:0:0:0:4f3:1e4a:73b:9eec%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: /var/folders/5g/ytklqqld38q...}, goog:chromeOptions: {debuggerAddress: localhost:49745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(manual), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eb8c08839c7988d9f93454e53523cff3
+*** Element info: {Using=id, value=ownerNameID}
+  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+  java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+  org.openqa.selenium.By$ById.findElement(By.java:218)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+  com.turbopro.MethodsLibrary.Methods.getid(Methods.java:396)
+  com.turbopro.jobs.CreditTab.updateOwner(CreditTab.java:227)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:567)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+  org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+  org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+  org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+  org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+  org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+  org.testng.TestRunner.privateRun(TestRunner.java:770)
+  org.testng.TestRunner.run(TestRunner.java:591)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+  org.testng.SuiteRunner.run(SuiteRunner.java:304)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+  org.testng.TestNG.runSuites(TestNG.java:1032)
+  org.testng.TestNG.run(TestNG.java:1000)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="updateNotices" time="30.033" classname="com.turbopro.jobs.CreditTab">
+                <failure type="org.openqa.selenium.NoSuchElementException"
+                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#RequestedNoc_Check&quot;}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:42:28.403Z&apos;
+System info: host: &apos;sysvinemp029.local&apos;, ip: &apos;fe80:0:0:0:4f3:1e4a:73b:9eec%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;13.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: /var/folders/5g/ytklqqld38q...}, goog:chromeOptions: {debuggerAddress: localhost:49745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(manual), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eb8c08839c7988d9f93454e53523cff3
+*** Element info: {Using=id, value=RequestedNoc_Check}"
+              >
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#RequestedNoc_Check"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:28.403Z'
+System info: host: 'sysvinemp029.local', ip: 'fe80:0:0:0:4f3:1e4a:73b:9eec%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: /var/folders/5g/ytklqqld38q...}, goog:chromeOptions: {debuggerAddress: localhost:49745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(manual), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eb8c08839c7988d9f93454e53523cff3
+*** Element info: {Using=id, value=RequestedNoc_Check}
+  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+  java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+  org.openqa.selenium.By$ById.findElement(By.java:218)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+  com.turbopro.MethodsLibrary.Methods.getid(Methods.java:396)
+  com.turbopro.jobs.CreditTab.updateNotices(CreditTab.java:242)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:567)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+  org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+  org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+  org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+  org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+  org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+  org.testng.TestRunner.privateRun(TestRunner.java:770)
+  org.testng.TestRunner.run(TestRunner.java:591)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+  org.testng.SuiteRunner.run(SuiteRunner.java:304)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+  org.testng.TestNG.runSuites(TestNG.java:1032)
+  org.testng.TestNG.run(TestNG.java:1000)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="creditTab" time="254.427" classname="com.turbopro.jobs.CreditTab">
+                <failure type="org.openqa.selenium.NoSuchElementException"
+                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(.,&apos;OK&apos;)]&quot;}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:42:28.403Z&apos;
+System info: host: &apos;sysvinemp029.local&apos;, ip: &apos;fe80:0:0:0:4f3:1e4a:73b:9eec%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;13.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: /var/folders/5g/ytklqqld38q...}, goog:chromeOptions: {debuggerAddress: localhost:49745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(manual), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eb8c08839c7988d9f93454e53523cff3
+*** Element info: {Using=xpath, value=//button[contains(.,&apos;OK&apos;)]}"
+              >
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(.,'OK')]"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:28.403Z'
+System info: host: 'sysvinemp029.local', ip: 'fe80:0:0:0:4f3:1e4a:73b:9eec%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: /var/folders/5g/ytklqqld38q...}, goog:chromeOptions: {debuggerAddress: localhost:49745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(manual), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eb8c08839c7988d9f93454e53523cff3
+*** Element info: {Using=xpath, value=//button[contains(.,'OK')]}
+  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+  java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+  org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+  com.turbopro.MethodsLibrary.Methods.getxpath(Methods.java:392)
+  com.turbopro.MethodsLibrary.Methods.changeStatusToBooked(Methods.java:1066)
+  com.turbopro.jobs.CreditTab.creditTab(CreditTab.java:86)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:567)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+  org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+  org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+  org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+  org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+  org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+  org.testng.TestRunner.privateRun(TestRunner.java:770)
+  org.testng.TestRunner.run(TestRunner.java:591)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+  org.testng.SuiteRunner.run(SuiteRunner.java:304)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+  org.testng.TestNG.runSuites(TestNG.java:1032)
+  org.testng.TestNG.run(TestNG.java:1000)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="changeCreditType" time="30.049" classname="com.turbopro.jobs.CreditTab">
+                <failure type="org.openqa.selenium.NoSuchElementException"
+                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#creditTypeListID&quot;}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:42:28.403Z&apos;
+System info: host: &apos;sysvinemp029.local&apos;, ip: &apos;fe80:0:0:0:4f3:1e4a:73b:9eec%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;13.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: /var/folders/5g/ytklqqld38q...}, goog:chromeOptions: {debuggerAddress: localhost:49745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(manual), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eb8c08839c7988d9f93454e53523cff3
+*** Element info: {Using=id, value=creditTypeListID}"
+              >
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#creditTypeListID"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:28.403Z'
+System info: host: 'sysvinemp029.local', ip: 'fe80:0:0:0:4f3:1e4a:73b:9eec%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: /var/folders/5g/ytklqqld38q...}, goog:chromeOptions: {debuggerAddress: localhost:49745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(manual), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eb8c08839c7988d9f93454e53523cff3
+*** Element info: {Using=id, value=creditTypeListID}
+  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+  java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+  org.openqa.selenium.By$ById.findElement(By.java:218)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+  com.turbopro.MethodsLibrary.Methods.getid(Methods.java:396)
+  com.turbopro.jobs.CreditTab.changeCreditType(CreditTab.java:118)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:567)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+  org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+  org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+  org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+  org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+  org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+  org.testng.TestRunner.privateRun(TestRunner.java:770)
+  org.testng.TestRunner.run(TestRunner.java:591)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+  org.testng.SuiteRunner.run(SuiteRunner.java:304)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+  org.testng.TestNG.runSuites(TestNG.java:1032)
+  org.testng.TestNG.run(TestNG.java:1000)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="updateGC" time="30.038" classname="com.turbopro.jobs.CreditTab">
+                <failure type="org.openqa.selenium.NoSuchElementException"
+                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#gcContactsList&quot;}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:42:28.403Z&apos;
+System info: host: &apos;sysvinemp029.local&apos;, ip: &apos;fe80:0:0:0:4f3:1e4a:73b:9eec%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;13.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: /var/folders/5g/ytklqqld38q...}, goog:chromeOptions: {debuggerAddress: localhost:49745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(manual), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eb8c08839c7988d9f93454e53523cff3
+*** Element info: {Using=id, value=gcContactsList}"
+              >
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#gcContactsList"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:28.403Z'
+System info: host: 'sysvinemp029.local', ip: 'fe80:0:0:0:4f3:1e4a:73b:9eec%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: /var/folders/5g/ytklqqld38q...}, goog:chromeOptions: {debuggerAddress: localhost:49745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(manual), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eb8c08839c7988d9f93454e53523cff3
+*** Element info: {Using=id, value=gcContactsList}
+  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+  java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+  org.openqa.selenium.By$ById.findElement(By.java:218)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+  com.turbopro.MethodsLibrary.Methods.getid(Methods.java:396)
+  com.turbopro.jobs.CreditTab.updateGC(CreditTab.java:212)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:567)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+  org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+  org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+  org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+  org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+  org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+  org.testng.TestRunner.privateRun(TestRunner.java:770)
+  org.testng.TestRunner.run(TestRunner.java:591)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+  org.testng.SuiteRunner.run(SuiteRunner.java:304)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+  org.testng.TestNG.runSuites(TestNG.java:1032)
+  org.testng.TestNG.run(TestNG.java:1000)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="changeCreditStatus" time="121.616" classname="com.turbopro.jobs.CreditTab" />
+                <testcase name="updateContractorDraw" time="30.049" classname="com.turbopro.jobs.CreditTab" />
+                <testcase name="addNotes" time="121.663" classname="com.turbopro.jobs.CreditTab" />
+                <testcase name="AddBondAgentDetails" time="30.027" classname="com.turbopro.jobs.CreditTab" />
+                <testcase name="selectFinalWaiver" time="30.023" classname="com.turbopro.jobs.CreditTab" />
+      
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="InventoryTransaction"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="209.277">
+  <properties />
+  
+  
+            <testcase name="printTransactionDetails" time="128.856" classname="com.turbopro.inventory.InventoryTransaction" />
+                <testcase name="clearTransactions" time="28.301" classname="com.turbopro.inventory.InventoryTransaction" />
+                <testcase name="viewTransactionInDifferentWarehouse" time="9.560" classname="com.turbopro.inventory.InventoryTransaction" />
+                <testcase name="setDateRange" time="15.851" classname="com.turbopro.inventory.InventoryTransaction" />
+                <testcase name="inventoryTransaction" time="25.040" classname="com.turbopro.inventory.InventoryTransaction" />
+                <testcase name="viewTransaction" time="1.669" classname="com.turbopro.inventory.InventoryTransaction" />
+      
+</testsuite>

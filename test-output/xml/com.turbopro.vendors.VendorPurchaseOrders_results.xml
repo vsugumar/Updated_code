@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="runVendorPurchaseOrders"
+           tests="9"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="159.416">
+  <properties />
+  
+  
+            <testcase name="createVendorPO" time="26.753" classname="com.turbopro.vendors.VendorPurchaseOrders" />
+                <testcase name="deleteLineItemsInPO" time="12.785" classname="com.turbopro.vendors.VendorPurchaseOrders" />
+                <testcase name="viewVendorPOByDateRange" time="8.699" classname="com.turbopro.vendors.VendorPurchaseOrders" />
+                <testcase name="viewPdfOfVendorPO" time="18.350" classname="com.turbopro.vendors.VendorPurchaseOrders" />
+                <testcase name="changeStatusInPO" time="13.067" classname="com.turbopro.vendors.VendorPurchaseOrders" />
+                <testcase name="sortVendorPO" time="26.848" classname="com.turbopro.vendors.VendorPurchaseOrders" />
+                <testcase name="vendorPurchaseOrder" time="19.472" classname="com.turbopro.vendors.VendorPurchaseOrders" />
+                <testcase name="searchPO" time="10.546" classname="com.turbopro.vendors.VendorPurchaseOrders" />
+                <testcase name="updateVendorPO" time="22.896" classname="com.turbopro.vendors.VendorPurchaseOrders" />
+      
+</testsuite>

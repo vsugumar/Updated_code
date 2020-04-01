@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TransactionDetails"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="56.059">
+  <properties />
+  
+  
+            <testcase name="navigateBankingTransactions" time="23.692" classname="com.turbopro.banking.TransactionDetails" />
+                <testcase name="deleteTransaction" time="5.701" classname="com.turbopro.banking.TransactionDetails" />
+                <testcase name="editTransaction" time="7.228" classname="com.turbopro.banking.TransactionDetails" />
+                <testcase name="filterTransactionDetails" time="3.038" classname="com.turbopro.banking.TransactionDetails" />
+                <testcase name="viewTransactionDetails" time="0.149" classname="com.turbopro.banking.TransactionDetails" />
+                <testcase name="voidCheck" time="8.913" classname="com.turbopro.banking.TransactionDetails" />
+                <testcase name="startTransaction" time="1.757" classname="com.turbopro.banking.TransactionDetails" />
+                <testcase name="writeNewCheck" time="5.581" classname="com.turbopro.banking.TransactionDetails" />
+      
+</testsuite>

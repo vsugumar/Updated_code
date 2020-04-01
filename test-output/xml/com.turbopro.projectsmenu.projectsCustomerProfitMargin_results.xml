@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="runProjectsCustomerProfitMargin"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="52.856">
+  <properties />
+  
+  
+            <testcase name="navigatePagesCusProfMarg" time="4.342" classname="com.turbopro.projectsmenu.ProjectsCustomerProfitMargin" />
+                <testcase name="sortingInCusProfMargin" time="20.761" classname="com.turbopro.projectsmenu.ProjectsCustomerProfitMargin" />
+                <testcase name="cusProfitMargInProjects" time="0.478" classname="com.turbopro.projectsmenu.ProjectsCustomerProfitMargin" />
+                <testcase name="navigateProjects" time="6.136" classname="com.turbopro.projectsmenu.ProjectsCustomerProfitMargin" />
+                <testcase name="viewCusProfMargByDateRange" time="4.895" classname="com.turbopro.projectsmenu.ProjectsCustomerProfitMargin" />
+                <testcase name="login" time="16.244" classname="com.turbopro.projectsmenu.ProjectsCustomerProfitMargin" />
+      
+</testsuite>

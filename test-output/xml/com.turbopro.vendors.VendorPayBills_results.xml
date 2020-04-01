@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="VendorPayBills"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="138.978">
+  <properties />
+  
+  
+            <testcase name="payVendorBills" time="41.526" classname="com.turbopro.vendors.VendorPayBills" />
+                <testcase name="createVendInvAndPayVendBills" time="35.829" classname="com.turbopro.vendors.VendorPayBills" />
+                <testcase name="vendorGroupAndUngroup" time="5.901" classname="com.turbopro.vendors.VendorPayBills" />
+                <testcase name="accessBankChecksForVenPayBills" time="19.471" classname="com.turbopro.vendors.VendorPayBills" />
+                <testcase name="vendorPayBill" time="20.875" classname="com.turbopro.vendors.VendorPayBills" />
+                <testcase name="viewVenInvByFiltering" time="15.376" classname="com.turbopro.vendors.VendorPayBills" />
+      
+</testsuite>

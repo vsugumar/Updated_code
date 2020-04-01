@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="runVendorInvoicesAndBills"
+           tests="12"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="392.460">
+  <properties />
+  
+  
+            <testcase name="accessInvoiceFromNoCustomerInvoice" time="11.104" classname="com.turbopro.vendors.VendorInvoicesAndBills" />
+                <testcase name="createVendorInvoice" time="11.012" classname="com.turbopro.vendors.VendorInvoicesAndBills" />
+                <testcase name="viewNoCustomerInvoiceByDate" time="8.129" classname="com.turbopro.vendors.VendorInvoicesAndBills" />
+                <testcase name="viewAccountsPayable" time="121.824" classname="com.turbopro.vendors.VendorInvoicesAndBills" />
+                <testcase name="sortVendorInvoices" time="40.232" classname="com.turbopro.vendors.VendorInvoicesAndBills" />
+                <testcase name="viewVendorInvoiceByDateRange" time="9.223" classname="com.turbopro.vendors.VendorInvoicesAndBills" />
+                <testcase name="updateVendorInvoiceNumber" time="20.283" classname="com.turbopro.vendors.VendorInvoicesAndBills" />
+                <testcase name="searchVendorInvoice" time="24.869" classname="com.turbopro.vendors.VendorInvoicesAndBills" />
+                <testcase name="vendorInvoices" time="15.348" classname="com.turbopro.vendors.VendorInvoicesAndBills" />
+                <testcase name="viewAccountsPayableByDateRange" time="96.692" classname="com.turbopro.vendors.VendorInvoicesAndBills" />
+                <testcase name="viewNoCustomerInvoice" time="5.334" classname="com.turbopro.vendors.VendorInvoicesAndBills" />
+                <testcase name="printNoCustomerInvoice" time="28.410" classname="com.turbopro.vendors.VendorInvoicesAndBills" />
+      
+</testsuite>
